@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import TopLeftImg from "./components/TopLeftImg";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 
 import { AnimatePresence, motion } from "framer-motion";
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

@@ -21,11 +21,11 @@ const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextjs" />,
         ],
       },
     ],
@@ -186,6 +186,18 @@ const Page = () => {
                 </div>
               );
             })}
+
+            {/* <div className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+              <div className="font-light mb-2 md:mb-0">Web Development</div>
+              <div className="hidden md:flex">-</div>
+              <div className="flex gap-x-4 text-2xl text-white">
+                <FaHtml5 />
+                <FaCss3 />
+                <FaJs />
+                <FaReact />
+                <SiNextdotjs />
+              </div>
+            </div> */}
           </div>
         </motion.div>
       </div>

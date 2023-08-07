@@ -2,12 +2,12 @@
 import {
   HiHome,
   HiUser,
-
   HiEnvelope,
   HiViewColumns,
   HiRectangleGroup,
 } from "react-icons/hi2";
 import Link from "next/link";
+//import { useRouter } from "next/router";
 import { useRouter } from "next/navigation";
 export const navData = [
   {
@@ -39,7 +39,7 @@ export const navData = [
 
 const Nav: React.FC = () => {
   const router = useRouter();
-  const pathname = router.pathname;
+  // const pathname = router.pathname;
   return (
     <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed  h-max bottom-0 mt-auto xl:left-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
       <div
@@ -51,7 +51,7 @@ const Nav: React.FC = () => {
           return (
             <Link
               className={`${
-                link.path === pathname && `text-gray-200`
+                link.path  && `text-gray-200`
               } relative flex items-center group hover:text-gray-200 transition-all duration-300 `}
               key={index}
               onClick={() => router.push(link.path)}

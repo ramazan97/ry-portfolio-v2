@@ -1,7 +1,5 @@
 import Link from "next/link";
 import Socials from "../components/Socials";
-import Image from "next/image";
-import { Fugaz } from "@next/font/google";
 
 const Header = () => {
   return (

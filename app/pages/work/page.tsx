@@ -4,7 +4,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../variants";
 import WorkSlider from "@/app/components/WorkSlider";
-import WorkSlider2 from "./weather-app/page";
 
 // import WorkSlider from "../../components/WorkSlider";
 // import Bulb from "../../components/Bulb";
@@ -51,7 +50,6 @@ const Page = () => {
             className="w-full pt-20 xl:max-w-[65%] "
           >
             <WorkSlider />
-            {/* <WorkSlider2 /> */}
           
           </motion.div>
         </div>

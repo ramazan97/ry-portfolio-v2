@@ -2,11 +2,8 @@
 import {
   HiHome,
   HiUser,
-  HiRectangleGr,
-  HiViewList,
-  HiChartBar,
+
   HiEnvelope,
-  HiChatBubbleBottomCenterText,
   HiViewColumns,
   HiRectangleGroup,
 } from "react-icons/hi2";

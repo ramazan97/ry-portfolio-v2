@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 
-import { motion } from "framer-motion";
-import { fadeIn } from "../../../variants";
-import BlogSlider from "@/app/components/BlogSlider";
-import Navbar from "./components/Navbar";
-import { Providers } from "./components/Provider";
-import IndexPage from "./indexPage";
+// import { motion } from "framer-motion";
+// import { fadeIn } from "../../../variants";
+// import BlogSlider from "@/app/components/BlogSlider";
+// import Navbar from "./components/Navbar";
+// import { Providers } from "./components/Provider";
+// import IndexPage from "./indexPage";
 
 const Page = () => {
   return (

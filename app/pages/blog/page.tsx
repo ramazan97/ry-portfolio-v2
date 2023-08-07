@@ -10,20 +10,18 @@ import IndexPage from "./indexPage";
 
 const Page = () => {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`  bg-white text-black dark:bg-gray-900 dark:selection:bg-gray-900 dark:text-white h-full selection:bg-gray-50`}
-      >
-        <Providers>
-     
-         
+    // <html lang="en" suppressHydrationWarning>
+    //   <body
+    //     className={`  bg-white text-black dark:bg-gray-900 dark:selection:bg-gray-900 dark:text-white h-full selection:bg-gray-50`}
+    //   >
+    //     <Providers>
 
-          <div className="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <IndexPage />
-          </div>
-        </Providers>
-      </body>
-    </html>
+    //       <div className="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    //         <IndexPage />
+    //       </div>
+    //     </Providers>
+    //   </body>
+    // </html>
 
     // <div style={{ overflowY: "scroll", height: "102vh" }}>
     //   <div className="min-h-screen bg-gray-800">
@@ -61,6 +59,9 @@ const Page = () => {
     //     </div>
     //   </div>
     // </div>
+    <div className="flex h-full items-center justify-center text-4xl text-white">
+      blog comming soon....
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ const sora = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
-const Layout: React.FC = ({ children }) => {
+const Layout: FC = ({ children }: { children: React.ReactNode }) => {
   return (
     <div
       className={`w-full h-screen overflow-hidden bg-site text-white bg-cover bg-no-repeat ${sora.variable} 

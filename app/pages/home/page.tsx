@@ -11,46 +11,48 @@ const Page = () => {
     <div className="bg-gray-900 pt-4 h-full ">
       <div className="gradient-02" />
       <div className="w-full h-full  bg-gradient-to-r from-bg-gray-800 via-black">
-        <div className="text-center flex flex-col sm:pt-16 justify-center xl:pt-40 xl:text-left h-full container mx-auto">
-          <motion.h1
-            variants={fadeIn("down", 0.2)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="h1  font-fugaz bg-red-500 tracking-wider"
-          >
-            Hi, my name is <br />
-            Ramazan I'm {"  "}
-            <br />
-            <span className="text-accent">Frontend-Developer</span>
-          </motion.h1>
-          <motion.p
-            variants={fadeIn("down", 0.3)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="max-w-sm font-fasthand xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
-          >
-            Hello! I am Ramazan. My own story with design and technology I'm
-            telling. Electrical and Electronics during my university education I
-            worked in the field, I developed autonomous drones. web development
-            now I specialize in. React, Next.js, TypeScript and Tailwind CSS I
-            produce creative projects with technologies such as In this site I
-            share my work and projects. from contacting don't hesitate. Together
-            we can sign great projects! Thanks!
-          </motion.p>
-          <div className="flex relative z-50  justify-center xl:hidden ">
-            <ProjectsBtn />
+        <div className="text-center flex flex-col  justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+          <div className=" sm:pt-32">
+            <motion.h1
+              variants={fadeIn("down", 0.2)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+              className="h1  font-fugaz  tracking-wider"
+            >
+              Hi, my name is <br />
+              Ramazan I'm {"  "}
+              <br />
+              <span className="text-accent">Frontend-Developer</span>
+            </motion.h1>
+            <motion.p
+              variants={fadeIn("down", 0.3)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+              className="max-w-sm font-fasthand xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            >
+              Hello! I am Ramazan. My own story with design and technology I'm
+              telling. Electrical and Electronics during my university education
+              I worked in the field, I developed autonomous drones. web
+              development now I specialize in. React, Next.js, TypeScript and
+              Tailwind CSS I produce creative projects with technologies such as
+              In this site I share my work and projects. from contacting don't
+              hesitate. Together we can sign great projects! Thanks!
+            </motion.p>
+            <div className="flex relative z-50  justify-center xl:hidden ">
+              <ProjectsBtn />
+            </div>
+            <motion.div
+              variants={fadeIn("down", 0.4)}
+              initial="hidden"
+              animate="show"
+              exit="hidden"
+              className="hidden mb-16 -mt-10 xl:flex"
+            >
+              <ProjectsBtn />
+            </motion.div>
           </div>
-          <motion.div
-            variants={fadeIn("down", 0.4)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="hidden mb-16 -mt-10 xl:flex"
-          >
-            <ProjectsBtn />
-          </motion.div>
         </div>
       </div>
       {/* image */}

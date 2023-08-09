@@ -70,7 +70,6 @@ const Page = () => {
       style={{ overflowY: "scroll", height: "102vh" }}
       className=" h-screen  bg-gray-900 py-32 text-center xl:text-left"
     >
-       <div className="gradient-03" />
       {/* <Circles /> */}
       <motion.div
         variants={fadeIn("right", 0.2)}
@@ -81,7 +80,7 @@ const Page = () => {
       >
         <Avatar />
       </motion.div>
-      <div className="container mx-auto mt-6  h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container relative z-0 mx-auto mt-6  h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* about */}
 
         <motion.div

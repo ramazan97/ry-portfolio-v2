@@ -29,6 +29,9 @@ module.exports = {
         secondary: "#393A47",
         accent: "#F13024",
       },
+      zIndex: {
+        "100": "100",
+      },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
         circles: 'url("/bg-circles.png")',

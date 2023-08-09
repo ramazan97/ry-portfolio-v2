@@ -84,12 +84,11 @@ const WorkSlider = () => {
                 return (
                   <div
                     key={index}
-                    className="relative rounded-lg min-h-[210px] bg-red-500 overflow-hidden flex items-center justify-center group "
+                    className="relative rounded-lg overflow-hidden flex items-center justify-center group "
                   >
                     <Link href={image.href}>
                       <div className="flex items-center justify-center relative overflow-hidden group">
                         <Image
-                        className="w-full min-h-[210px] bg-no-repeat bg-cover bg-center"
                           src={image.path}
                           width={500}
                           height={300}

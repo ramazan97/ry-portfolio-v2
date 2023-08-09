@@ -39,7 +39,7 @@ const Page = () => {
             share my work and projects. from contacting don't hesitate. Together
             we can sign great projects! Thanks!
           </motion.p>
-          <div className="flex  justify-center xl:hidden relative">
+          <div className="flex relative z-50  justify-center xl:hidden ">
             <ProjectsBtn />
           </div>
           <motion.div

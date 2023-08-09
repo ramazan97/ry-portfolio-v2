@@ -11,19 +11,18 @@ import WorkSlider from "@/app/components/WorkSlider";
 
 const Page = () => {
   return (
-    <div className="h-full pt-4 bg-gray-900 py-36 flex items-center ">
+    <div className="h-full  bg-gray-900 py-36 flex items-center ">
       {/* <Circles /> */}
-      <div className="gradient-02" />
-      <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row gap-x-8 ">
+      <div className="container  mx-auto">
+        <div className="flex flex-col  xl:flex-row gap-x-8 ">
           {/* text */}
-          <div className="text-center flex items-center justify-center xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0 ">
+          <div className="text-center flex items-center  justify-center xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0 ">
             <motion.h2
               variants={fadeIn("up", 0.2)}
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 xl:mt-12 md:mt-40 md:text-center  text-white font-fugaz"
+              className="h2 xl:mt-12  sm:pt-32 md:mt-28 md:text-center  text-white font-fugaz"
             >
               My work<span className="text-accent">.</span>
             </motion.h2>
@@ -48,7 +47,7 @@ const Page = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full pt-20 xl:max-w-[65%] "
+            className="w-full md:pt-32 xl:max-w-[65%] "
           >
             <WorkSlider />
           </motion.div>

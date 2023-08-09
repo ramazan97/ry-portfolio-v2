@@ -10,14 +10,14 @@ const Page = () => {
   return (
     <div className="bg-gray-900 pt-4 h-full ">
       <div className="gradient-02" />
-      <div className="w-full h-full bg-gradient-to-r from-bg-gray-800 via-black">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+      <div className="w-full h-full  bg-gradient-to-r from-bg-gray-800 via-black">
+        <div className="text-center flex flex-col sm:pt-16 justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1  font-fugaz tracking-wider"
+            className="h1  font-fugaz bg-red-500 tracking-wider"
           >
             Hi, my name is <br />
             Ramazan I'm {"  "}

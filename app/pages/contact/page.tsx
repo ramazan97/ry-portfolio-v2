@@ -10,9 +10,11 @@ import ContactBtn from "@/app/components/ContactBtn";
 
 const Page = () => {
   return (
-    <div className="h-full bg-primary/30">
+    <div className="h-full bg-gray-900">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full ">
         {/* text-form */}
+
+        <div className="gradient-04"/>
         <div className="flex flex-col w-full max-w-[700px]">
           {/* text */}
           <motion.h2
@@ -33,11 +35,26 @@ const Page = () => {
             className="flex-1 flex flex-col gap-6 w-full mx-auto"
           >
             <div className="flex gap-x-6 w-full">
-              <input type="text" placeholder="name" className="input font-sofia text-gray-200" />
-              <input type="text" placeholder="email" className="input font-sofia text-gray-200" />
+              <input
+                type="text"
+                placeholder="name"
+                className="input font-sofia text-gray-200"
+              />
+              <input
+                type="text"
+                placeholder="email"
+                className="input font-sofia text-gray-200"
+              />
             </div>
-            <input type="text" placeholder="subject" className="input font-sofia text-gray-200 " />
-            <textarea placeholder="message" className="textarea font-sofia text-gray-200"></textarea>
+            <input
+              type="text"
+              placeholder="subject"
+              className="input font-sofia text-gray-200 "
+            />
+            <textarea
+              placeholder="message"
+              className="textarea font-sofia text-gray-200"
+            ></textarea>
             <ContactBtn />
           </motion.form>
         </div>

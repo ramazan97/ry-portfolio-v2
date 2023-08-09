@@ -18,22 +18,22 @@ const workSlides = {
       images: [
         {
           title: "ry-bungalov",
-          path: "/thumb4.jpg",
+          path: "/bungalov-app.png",
           href: "https://rydev-bungalov.vercel.app/",
         },
         {
           title: "ry-ecommerce",
-          path: "/thumb1.jpg",
+          path: "/ecommerce-app.png",
           href: "https://rydev-ecommerce-website.vercel.app/",
         },
         {
           title: "ry-blog",
-          path: "/thumb3.jpg",
+          path: "/blog-app.png",
           href: "https://rydev-blog-3zxl0ejch-ramazan97.vercel.app/",
         },
         {
           title: "ry-wheather-app",
-          path: "/thumb2.jpg",
+          path: "/wheather-app.png",
           href: "https://rydev-weather-app.vercel.app/",
         },
       ],
@@ -84,11 +84,12 @@ const WorkSlider = () => {
                 return (
                   <div
                     key={index}
-                    className="relative rounded-lg overflow-hidden flex items-center justify-center group "
+                    className="relative rounded-lg min-h-[210px] bg-red-500 overflow-hidden flex items-center justify-center group "
                   >
                     <Link href={image.href}>
                       <div className="flex items-center justify-center relative overflow-hidden group">
                         <Image
+                        className="w-full min-h-[210px] bg-no-repeat bg-cover bg-center"
                           src={image.path}
                           width={500}
                           height={300}

@@ -13,6 +13,7 @@ const Page = () => {
   return (
     <div className="h-full bg-gray-900 py-36 flex items-center ">
       {/* <Circles /> */}
+      <div className="gradient-04" />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8 ">
           {/* text */}

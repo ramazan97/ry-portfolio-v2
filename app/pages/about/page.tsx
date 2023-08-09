@@ -68,8 +68,9 @@ const Page = () => {
   return (
     <div
       style={{ overflowY: "scroll", height: "102vh" }}
-      className=" h-screen  bg-primary/30 py-32 text-center xl:text-left"
+      className=" h-screen  bg-gray-900 py-32 text-center xl:text-left"
     >
+       <div className="gradient-03" />
       {/* <Circles /> */}
       <motion.div
         variants={fadeIn("right", 0.2)}

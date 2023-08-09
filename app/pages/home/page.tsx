@@ -8,7 +8,8 @@ import ProjectsBtn from "@/app/components/ProjectsBtn";
 
 const Page = () => {
   return (
-    <div className="bg-gray-800 h-full z-50">
+    <div className="bg-gray-900 h-full z-50">
+      <div className="gradient-02" />
       <div className="w-full h-full bg-gradient-to-r from-bg-gray-800 via-black">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           <motion.h1
@@ -16,7 +17,7 @@ const Page = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 font-sofia tracking-wider"
+            className="h1  font-sofia tracking-wider"
           >
             Hi, my name is <br />
             Ramazan I'm {"  "}

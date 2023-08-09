@@ -44,7 +44,7 @@ module.exports = {
         sora: [`var(--font-sora)`, "sans-serif"],
         fugaz: ["Fugaz One", "sans-serif"],
         sofia: ["Sofia", "cursive"],
-        fasthand: ["Fasthand", "cursive"],
+        // fasthand: ["Fasthand", "cursive"],
       },
     },
   },

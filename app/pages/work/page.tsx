@@ -24,7 +24,7 @@ const Page = () => {
               exit="hidden"
               className="h2 xl:mt-12 md:mt-40 md:text-center  text-white font-fugaz"
             >
-              My work <span className="text-accent">.</span>
+              My work<span className="text-accent">.</span>
             </motion.h2>
             <div className="flex items-center justify-center">
               {" "}
@@ -35,9 +35,9 @@ const Page = () => {
                 exit="hidden"
                 className="mb-4 max-w-[400px] mx-auto lg:mx-0 md:text-center   text-gray-200 font-fasthand"
               >
-                Bu kısımda projelerimden bazılarını paylaşıyorum. Daha fazla
-                proje için <span className="font-bold uppercase">Github</span>{" "}
-                sayfamı ziyaret edebilirsiniz.
+                In this section, I share some of my projects. More for the
+                project <span className="font-bold uppercase">Github</span> you
+                can visit my page.
               </motion.p>
             </div>
           </div>
@@ -50,7 +50,6 @@ const Page = () => {
             className="w-full pt-20 xl:max-w-[65%] "
           >
             <WorkSlider />
-          
           </motion.div>
         </div>
       </div>

@@ -66,18 +66,21 @@ import Countup from "react-countup";
 const Page = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div
+      style={{ overflowY: "scroll", height: "102vh" }}
+      className=" h-screen  bg-primary/30 py-32 text-center xl:text-left"
+    >
       {/* <Circles /> */}
       <motion.div
-        variants={fadeIn("left", 0.2)}
+        variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute -bottom-[80px] -right-[230px] "
+        className="hidden xl:flex absolute -bottom-32 -left-[370px]"
       >
         <Avatar />
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto mt-6  h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* about */}
 
         <motion.div
@@ -92,10 +95,10 @@ const Page = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-white te font-fugaz  "
+            className="h2 text-white font-sofia text-xl lg:text-2xl    "
           >
-            Harika <span className="text-accent ">hikayeler</span> büyüleyici
-            tasarımların temelini oluşturur
+            Great <span className="text-accent ">stories</span> fascinating
+            forms the basis of designs
           </motion.h2>
 
           <motion.p
@@ -103,15 +106,15 @@ const Page = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px ] font-fasthand mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
+            className="max-w-[500px ]  font-fasthand mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
           >
-            Üniversite eğitimim boyunca Elektrik Elektronik alanında çalışmalar
-            yaptım ve mezuniyet projemde otonom drone geliştirdim. İHA takımı
-            ile 2 yıl boyunca otonom yazılım üzerine çalıştım ve devlet destekli
-            kurslar ile Udemy kursları alarak kendimi geliştirmeye devam ettim.
-            Şu an ise web geliştirme alanında yoğunlaştım ve React, Next.js,
-            TypeScript ve Tailwind CSS gibi teknolojileri kullanarak projeler
-            geliştiriyorum.
+            Studies in the field of Electrical and Electronics during my
+            university education I did it and developed an autonomous drone in
+            my graduation project. UAV team I worked with Autonomous software
+            for 2 years and was supported by the state. I continued to improve
+            myself by taking Udemy courses with courses. Currently, I'm focused
+            on web development and React, Next.js, Projects using technologies
+            like TypeScript and Tailwind CSS I am developing.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -141,53 +144,17 @@ const Page = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] h-[480px]  "
+          className="flex flex-col w-full  xl:mt-20 xl:max-w-[48%] h-[480px]  "
         >
-          <div className="flex gap-x-4 text-gray-200  md:mt-8 xl:mt-1 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-            {aboutData.map((item, itemIndex) => {
-              return (
-                <div
-                  key={itemIndex}
-                  className={`${
-                    index === itemIndex &&
-                    "text-accent after:w-[100%]  after:bg-accent after:transition-all    after:duration-300    "
-                  }
-                  
-                  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0
-                  `}
-                  onClick={() => setIndex(itemIndex)}
-                >
-                  {item.title}{" "}
-                </div>
-              );
-            })}
+          <div className="flex gap-x-3 text-gray-200  md:mt-8 xl:mt-1 xl:gap-x-4 mx-auto xl:mx-0 mb-4">
+            <div
+              className={` hover:text-accent duration-75 cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white hover:after:bg-red-500 after:absolute after:-bottom-1 after:left-0`}
+            >
+              Skils
+            </div>
           </div>
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start ">
-            {/* {aboutData[index].info.map((item, itemIndex) => {
-              return (
-                <div
-                  key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 "
-                >
-             
-                  <div className="font-light mb-2 md:mb-0">{item.title} </div>
-                  <div className="hidden md:flex">-</div>
-                  <div>{item.stage} </div>
-                  <div className="flex gap-x-4">
-           
-                    {item.icons?.map((icon, itemIndex) => {
-                      return (
-                        <div key={itemIndex} className="text-2xl text-white">
-                          {icon}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })} */}
-
-            {/* <div className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+          <div className="py-2 xl:py-4 flex flex-col gap-y-2 xl:gap-y-1 items-center xl:items-start ">
+            <div className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
               <div className="font-light mb-2 md:mb-0">Web Development</div>
               <div className="hidden md:flex">-</div>
               <div className="flex gap-x-4 text-2xl text-white">
@@ -197,10 +164,46 @@ const Page = () => {
                 <FaReact />
                 <SiNextdotjs />
               </div>
-            </div> */}
+            </div>
+          </div>
+          <div className="flex gap-x-3 text-gray-200  md:mt-4 xl:mt-1 xl:gap-x-4 mx-auto xl:mx-0 mb-4">
+            <div
+              className={` hover:text-accent duration-75 cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white hover:after:bg-red-500 after:absolute after:-bottom-1 after:left-0`}
+            >
+              experience
+            </div>
+          </div>
+          <div className="py-2 xl:py-4 flex flex-col gap-y-2 xl:gap-y-1 items-center xl:items-start ">
+            <div className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+              <div className="font-light mb-2 md:mb-0">
+                Control Engineer - HAVELSAN{" "}
+              </div>
+              <div className="hidden md:flex">-</div>
+              <div>2020 - 2021 </div>
+              <div className="flex gap-x-4"></div>
+            </div>
+          </div>
+          <div className="flex gap-x-3 text-gray-200  md:mt-4 xl:mt-1 xl:gap-x-4 mx-auto xl:mx-0 mb-4">
+            <div
+              className={` hover:text-accent duration-75 cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white hover:after:bg-red-500 after:absolute after:-bottom-1 after:left-0`}
+            >
+              University
+            </div>
+          </div>
+          <div className="py-2 xl:py-4 flex flex-col gap-y-2 xl:gap-y-1 items-center xl:items-start ">
+            <div className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2  items-start text-white/60">
+              <div className="font-light mb-2 md:mb-0">
+                Electrical and Electronics Engineering <br /> Karabuk
+                university - Karabuk{" "}
+              </div>
+              <div className="hidden md:flex">-</div>
+              <div>2016 - 2021 </div>
+              <div className="flex gap-x-4"></div>
+            </div>
           </div>
         </motion.div>
       </div>
+      <div className="mb-40  md:hidden "> </div>
     </div>
   );
 };

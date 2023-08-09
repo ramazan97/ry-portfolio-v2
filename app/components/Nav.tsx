@@ -22,7 +22,7 @@ export const navData = [
   },
   {
     name: "blog",
-    path: "/pages/blog",
+    path: "https://rydev-blog-3zxl0ejch-ramazan97.vercel.app/",
     icon: <HiRectangleGroup />,
   },
   {

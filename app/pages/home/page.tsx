@@ -6,7 +6,6 @@ import { fadeIn } from "../../../variants";
 import Avatar from "../../components/Avatar";
 import ProjectsBtn from "@/app/components/ProjectsBtn";
 
-
 const Page = () => {
   return (
     <div className="bg-gray-800 h-full z-50">
@@ -19,7 +18,9 @@ const Page = () => {
             exit="hidden"
             className="h1 font-sofia tracking-wider"
           >
-            Hi, my name is Ramazan <br /> I'm {"  "}
+            Hi, my name is <br />
+            Ramazan I'm {"  "}
+            <br />
             <span className="text-accent">Frontend-Developer</span>
           </motion.h1>
           <motion.p
@@ -29,12 +30,15 @@ const Page = () => {
             exit="hidden"
             className="max-w-sm font-fasthand xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying out print, graphic or web designs. The passage is
-            attributed to an unknown typesetter in the 15th century who is
-            thought to have s
+            Hello! I am Ramazan. My own story with design and technology I'm
+            telling. Electrical and Electronics during my university education I
+            worked in the field, I developed autonomous drones. web development
+            now I specialize in. React, Next.js, TypeScript and Tailwind CSS I
+            produce creative projects with technologies such as In this site I
+            share my work and projects. from contacting don't hesitate. Together
+            we can sign great projects! Thanks!
           </motion.p>
-          <div className="flex justify-center xl:hidden relative">
+          <div className="flex  justify-center xl:hidden relative">
             <ProjectsBtn />
           </div>
           <motion.div
@@ -42,7 +46,7 @@ const Page = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="hidden xl:flex"
+            className="hidden mb-16 -mt-10 xl:flex"
           >
             <ProjectsBtn />
           </motion.div>

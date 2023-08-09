@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
- import { Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
@@ -17,51 +17,51 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
-          path: "/thumb1.jpg",
-          href: "../pages/work/weather-app",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-          href: "https://www.youtube.com/watch?v=wSlEJOn-gJQ&list=WL&index=15",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-          href: "/",
-        },
-        {
-          title: "title",
+          title: "ry-bungalov",
           path: "/thumb4.jpg",
-          href: "/",
+          href: "https://rydev-bungalov.vercel.app/",
+        },
+        {
+          title: "ry-ecommerce",
+          path: "/thumb1.jpg",
+          href: "https://rydev-ecommerce-website.vercel.app/",
+        },
+        {
+          title: "ry-blog",
+          path: "/thumb3.jpg",
+          href: "https://rydev-blog-3zxl0ejch-ramazan97.vercel.app/",
+        },
+        {
+          title: "ry-wheather-app",
+          path: "/thumb2.jpg",
+          href: "https://rydev-weather-app.vercel.app/",
         },
       ],
     },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/thumb4.jpg",
-          href: "/",
-        },
-        {
-          title: "title",
-          path: "/thumb1.jpg",
-          href: "/",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-          href: "/",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-          href: "/",
-        },
-      ],
-    },
+    // {
+    //   images: [
+    //     {
+    //       title: "title",
+    //       path: "/thumb4.jpg",
+    //       href: "/",
+    //     },
+    //     {
+    //       title: "title",
+    //       path: "/thumb1.jpg",
+    //       href: "/",
+    //     },
+    //     {
+    //       title: "title",
+    //       path: "/thumb2.jpg",
+    //       href: "/",
+    //     },
+    //     {
+    //       title: "title",
+    //       path: "/thumb3.jpg",
+    //       href: "/",
+    //     },
+    //   ],
+    // },
   ],
 };
 

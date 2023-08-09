@@ -10,7 +10,7 @@ import ContactBtn from "@/app/components/ContactBtn";
 
 const Page = () => {
   return (
-    <div className="h-full bg-gray-900">
+    <div className="h-full pt-4 bg-gray-900">
      <div className="gradient-02" />
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full ">
         {/* text-form */}

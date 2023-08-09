@@ -8,7 +8,7 @@ import ProjectsBtn from "@/app/components/ProjectsBtn";
 
 const Page = () => {
   return (
-    <div className="bg-gray-900 h-full z-50">
+    <div className="bg-gray-900 pt-4 h-full ">
       <div className="gradient-02" />
       <div className="w-full h-full bg-gradient-to-r from-bg-gray-800 via-black">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">

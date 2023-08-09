@@ -11,7 +11,7 @@ import WorkSlider from "@/app/components/WorkSlider";
 
 const Page = () => {
   return (
-    <div className="h-full bg-gray-900 py-36 flex items-center ">
+    <div className="h-full pt-4 bg-gray-900 py-36 flex items-center ">
       {/* <Circles /> */}
       <div className="gradient-02" />
       <div className="container mx-auto">

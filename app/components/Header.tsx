@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           <Link href={"/"}>
-         <h1 className="text-white text-4xl font-bold font-sofia " >ry<span className="text-red-500  ">.dev</span> </h1>
+         <h1 className="text-white text-4xl font-bold font-fugaz " >ry<span className="text-red-500  ">.dev</span> </h1>
           </Link>
           {/* socials */}
 

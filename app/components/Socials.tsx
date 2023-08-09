@@ -12,7 +12,7 @@ import {
 
 const Socials: React.FC = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg">
+    <div className="flex  items-center p-5 gap-x-5 text-lg">
       <Link
         href={"https://linkedin.com/in/ramazan-yağli-49891a159"}
         className="hover:text-red-500 transition-all duration-300 text-2xl text-white "

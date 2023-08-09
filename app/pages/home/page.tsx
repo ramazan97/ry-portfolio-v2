@@ -17,7 +17,7 @@ const Page = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1  font-sofia tracking-wider"
+            className="h1  font-fugaz tracking-wider"
           >
             Hi, my name is <br />
             Ramazan I'm {"  "}

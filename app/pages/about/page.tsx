@@ -96,7 +96,7 @@ const Page = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-white font-sofia text-xl lg:text-2xl    "
+            className="h2 text-white font-fugaz text-xl lg:text-2xl    "
           >
             Great <span className="text-accent ">stories</span> fascinating
             forms the basis of designs

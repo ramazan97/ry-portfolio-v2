@@ -26,10 +26,10 @@ const ContactBtn = () => {
             ></path>
           </svg>
         </span>
-        <span className="absolute font-sofia tracking-wider flex items-center justify-center w-full h-full text-gray-200 transition-all duration-300 transform group-hover:translate-x-full ease">
+        <span className="absolute font-fugaz tracking-wider flex items-center justify-center w-full h-full text-gray-200 transition-all duration-300 transform group-hover:translate-x-full ease">
           Let's Talk
         </span>
-        <span className="relative font-sofia tracking-wider invisible">Let's Talk</span>
+        <span className="relative font-fugaz tracking-wider invisible">Let's Talk</span>
       </a>
     </div>
   );

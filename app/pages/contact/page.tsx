@@ -38,22 +38,22 @@ const Page = () => {
               <input
                 type="text"
                 placeholder="name"
-                className="input font-sofia text-gray-200"
+                className="input font-fugaz text-gray-200"
               />
               <input
                 type="text"
                 placeholder="email"
-                className="input font-sofia text-gray-200"
+                className="input font-fugaz text-gray-200"
               />
             </div>
             <input
               type="text"
               placeholder="subject"
-              className="input font-sofia text-gray-200 "
+              className="input font-fugaz text-gray-200 "
             />
             <textarea
               placeholder="message"
-              className="textarea font-sofia text-gray-200"
+              className="textarea font-fugaz text-gray-200"
             ></textarea>
             <ContactBtn />
           </motion.form>
